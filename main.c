@@ -1,15 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-void print_message(void)
-{
-  puts("string 1");
-  if (1)
-  {
-    puts("string 2");
-  }
-}
-
 int main()
 {
   char name[1024];
@@ -17,8 +8,8 @@ int main()
   if (fgets(name, 1023, stdin)) /* read input */
   {
     name[strlen(name) - 1] = '\0'; /*remove trailing newline */
-    printf("%s, Says Hello to you!\n", name);
-    print_message();
+    printf("%s, Codespace says Hello to you!\n", name);
   }
+
   return 0;
 }
