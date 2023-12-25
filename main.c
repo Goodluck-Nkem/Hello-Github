@@ -4,7 +4,7 @@
 int main(int argc, char* argv[])
 {
   char name[1024];
-  printf("Say your name: ");
+  printf("State your name: ");
   if (fgets(name, 1023, stdin)) /* read input */
   {
     name[strlen(name) - 1] = '\0'; /*remove trailing newline */
