@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
   char name[1024];
   printf("State your name: ");
